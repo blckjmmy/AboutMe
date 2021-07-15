@@ -34,7 +34,7 @@ if ( saturn === 'no' || saturn === 'n') {
 console.log(saturn);
 
 
-growup()
+saturn()
 
 let q2 = prompt('Do I like anime?');
 console.log(q2);
