@@ -1,0 +1,14 @@
+body {
+  background-color: yellow;
+}
+
+h1 {
+  background-color: red;
+  border: black 2px ;
+  font-size: larger;
+}
+
+h2 {
+  font-size: large;
+}
+
