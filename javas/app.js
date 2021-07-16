@@ -34,7 +34,8 @@ if ( saturn === 'no' || saturn === 'n') {
 console.log(saturn);
 
 
-saturn()
+
+
 
 let q2 = prompt('Do I like anime?');
 console.log(q2);
@@ -49,7 +50,7 @@ if (goku === 'no' || goku === 'n') {
 console.log(goku);
 
 
-dance()
+
 
 let q3 = prompt('Have I serve in military');
 console.log(q3);
@@ -62,6 +63,7 @@ if (money === 'no' || money === 'n') {
   alert('I didn\'t get that. Please submit your answers in the form of "yes" or "no".')
 }
 console.log(money);
+
 
 
 let q4 = prompt('your main goal is to visit singapoire');
