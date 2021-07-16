@@ -21,23 +21,30 @@ alert('Welcome ' + userName + '!');
 
 // for prompt return values, use .toLowerCase
 
-let q1 = prompt('Do i live in  maryland');
+function chance(){let q1 = prompt('Do i live in  maryland');
 console.log(q1);
 let saturn = q1.toLowerCase();
 if ( saturn === 'no' || saturn === 'n') {
   alert('Correct! I am at dallas.');
 } else if (saturn === 'yes' || saturn === 'y') {
-  alert('Nope,')
+  alert('Nope,');
 } else {
-  alert('I didn\'t get that. Please submit your answers in the form of "yes" or "no".')
+  alert('I didn\'t get that. Please submit your answers in the form of "yes" or "no".');
 }
 console.log(saturn);
+return chance;
+}
+
+chance()
+
+
+function cake(){let q2 = prompt('Do I like anime?');
 
 
 
 
 
-let q2 = prompt('Do I like anime?');
+
 console.log(q2);
 let goku = q2.toLowerCase();
 if (goku === 'no' || goku === 'n') {
@@ -48,11 +55,18 @@ if (goku === 'no' || goku === 'n') {
   alert('I didn\'t get that. Please submit your answers in the form of "yes" or "no".')
 }
 console.log(goku);
+return cake;
+}
+
+cake()
+
+
+function books(){let q3 = prompt('Have I serve in military');
 
 
 
 
-let q3 = prompt('Have I serve in military');
+
 console.log(q3);
 let money = q3.toLowerCase();
 if (money === 'no' || money === 'n') {
@@ -63,10 +77,16 @@ if (money === 'no' || money === 'n') {
   alert('I didn\'t get that. Please submit your answers in the form of "yes" or "no".')
 }
 console.log(money);
+return books;
+}
+books()
+
+
+function pen(){let q4 = prompt('your main goal is to visit singapoire');
 
 
 
-let q4 = prompt('your main goal is to visit singapoire');
+
 console.log(q4);
 let hope = q4.toLowerCase();
 if (hope === 'no' || hope === 'n') {
@@ -77,11 +97,11 @@ if (hope === 'no' || hope === 'n') {
   alert('I didn\'t get that. Please submit your answers in the form of "yes" or "no".')
 }
 console.log(hope);
+return pen;
+}
+pen()
 
-
-
-
-let q5 = prompt('you were in army');
+function mars(){let q5 = prompt('you were in army');
 console.log(q5);
 let jon = q5.toLowerCase();
 if (jon === 'no' || jon === 'n') {
@@ -92,7 +112,9 @@ if (jon === 'no' || jon === 'n') {
   alert('I didn\'t get that. Please submit your answers in the form of "yes" or "no".')
 }
 console.log(jon);
-
+return mars;
+}
+mars()
 
 
 
