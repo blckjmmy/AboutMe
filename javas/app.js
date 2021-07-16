@@ -37,7 +37,14 @@ return chance;
 
 chance()
 
+
 function cake(){let q2 = prompt('Do I like anime?');
+
+
+
+
+
+
 console.log(q2);
 let goku = q2.toLowerCase();
 if (goku === 'no' || goku === 'n') {
@@ -53,7 +60,13 @@ return cake;
 
 cake()
 
+
 function books(){let q3 = prompt('Have I serve in military');
+
+
+
+
+
 console.log(q3);
 let money = q3.toLowerCase();
 if (money === 'no' || money === 'n') {
@@ -68,7 +81,12 @@ return books;
 }
 books()
 
+
 function pen(){let q4 = prompt('your main goal is to visit singapoire');
+
+
+
+
 console.log(q4);
 let hope = q4.toLowerCase();
 if (hope === 'no' || hope === 'n') {
