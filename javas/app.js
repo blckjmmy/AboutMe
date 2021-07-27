@@ -1,11 +1,14 @@
 
 'use strict';
 
-console.log ('hello world!');
+console.log ('hello world');
 
 let userName = prompt('Hello Who might you be ?');
 console.log('This is ' + userName);
 alert('Welcome ' + userName + ' you are playing guessing game');
+
+alert('hello jonathan');
+
 
 let score = 0;
 

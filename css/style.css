@@ -1,14 +1,38 @@
 body {
-  background-color: yellow;
+  background-color: limegreen;
+  box-sizing: border-box;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: black
+  line-height: 1.5em;
+
+
 }
+
 
 h1 {
   background-color: red;
   border: black 2px ;
-  font-size: larger;
+  font-size: xx-large;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  text-align: center;
 }
 
 h2 {
   font-size: large;
+  text-transform: uppercase;
+  text-decoration: underline;
 }
 
+
+h3 {
+  font-size: large;
+ text-decoration: underline;
+}
+
+
+h4{
+  font-size: large;
+  text-decoration: underline;
+
+}
